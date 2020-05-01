@@ -97,8 +97,7 @@ nav a:focus {
 
 .hero {
   background: var(--clr-accent);
-  background-image: url(img/gemüsekiste.png);
-  /* background-image: url("http://source.unsplash.com/random/350x230/?organic-farm"); */
+  background-image: url(img/tomatoes-mixed.jpg);
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-size: cover;
