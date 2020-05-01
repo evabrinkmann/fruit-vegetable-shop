@@ -5,12 +5,57 @@ font-family: 'Caveat', cursive;
 font-family: 'Crimson Pro', serif;
 */
 
+:root {
+  --clr-text: #5a5a5a;
+  --clt-primary: #067e0a;
+  --clr-accent: #764981;
+
+  --ff-title: "Caveat", cursive;
+  --ff-serif: "Crimson Pro", serif;
+  --ff-text: "Roboto", sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--ff-text);
+  color: var(--clr-text);
+  font-size: 1.125rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--ff-title);
+  color: black;
+}
+
+h2,
+h3 {
+  font-family: var(--ff-title);
+  color: black;
+  line-height: 0.8;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  margin-bottom: 0.85em;
 }
 
 
