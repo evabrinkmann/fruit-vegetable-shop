@@ -7,7 +7,7 @@ font-family: 'Crimson Pro', serif;
 
 :root {
   --clr-text: #5a5a5a;
-  --clt-primary: #067e0a;
+  --clt-primary: #00ba06;
   --clr-accent: #764981;
 
   --ff-title: "Caveat", cursive;
@@ -30,6 +30,10 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+section {
+  padding: 3em 1em;
 }
 
 h1,
@@ -58,6 +62,10 @@ h2 {
 
 p {
   margin-bottom: 0.85em;
+}
+
+.text-primary {
+  color: var(--clt-primary);
 }
 
 .logo {
@@ -107,6 +115,10 @@ nav a:focus {
 .hero h2 {
   color: white;
   padding: 10vh 1vh;
+}
+
+.intro {
+  text-align: center;
 }
 
 
