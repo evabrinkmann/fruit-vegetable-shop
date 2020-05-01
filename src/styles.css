@@ -17,6 +17,8 @@ font-family: 'Crimson Pro', serif;
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -60,7 +62,7 @@ p {
 
 .logo {
   text-align: center;
-  padding: 1em;
+  padding: 0.8em;
 }
 
 .logo a {
@@ -91,4 +93,19 @@ nav a:hover,
 nav a:focus {
   color: var(--clr-accent);
   text-decoration: underline;
+}
+
+.hero {
+  background: var(--clr-accent);
+  background-image: url(img/gemüsekiste.png);
+  /* background-image: url("http://source.unsplash.com/random/350x230/?organic-farm"); */
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero h2 {
+  color: white;
+  padding: 10vh 1vh;
 }
