@@ -57,3 +57,38 @@ h2 {
 p {
   margin-bottom: 0.85em;
 }
+
+.logo {
+  text-align: center;
+  padding: 1em;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  padding: 1em 0 2em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: var(--clt-primary);
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--clr-accent);
+  text-decoration: underline;
+}
