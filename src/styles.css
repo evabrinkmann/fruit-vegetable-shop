@@ -64,6 +64,10 @@ p {
   margin-bottom: 0.85em;
 }
 
+.section-title-small {
+  font-size: 3rem;
+}
+
 .text-primary {
   color: var(--clt-primary);
 }
@@ -105,7 +109,7 @@ nav a:focus {
 
 .hero {
   background: var(--clr-accent);
-  background-image: url(img/tomatoes-mixed.jpg);
+  background-image: url(img/fruits-vegetables.jpg);
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-size: cover;
@@ -119,4 +123,31 @@ nav a:focus {
 
 .intro {
   text-align: center;
+}
+
+.about-us {
+  background: var(--clr-accent);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.about-us h2 {
+  color: white;
+  padding: 10vh 1vh;
+  text-align: center;
+}
+
+.about-us__intro {
+  background: var(--clr-accent);
+  background-image: url(img/traktor.jpg);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 3em 1em;
+}
+
+.about-us__body {
+  padding: 1em;
 }
