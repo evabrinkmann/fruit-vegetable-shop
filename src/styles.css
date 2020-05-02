@@ -8,7 +8,9 @@ font-family: 'Crimson Pro', serif;
 :root {
   --clr-text: #5a5a5a;
   --clt-primary: #19a01d;
+  --clt-primary-dark: #125814;
   --clr-accent: #764981;
+  --clr-accent-dark: #44264d;
 
   --ff-title: "Caveat", cursive;
   --ff-serif: "Crimson Pro", serif;
@@ -35,6 +37,10 @@ img {
 
 section {
   padding: 3em 1em;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 h1,
@@ -170,6 +176,20 @@ nav a:focus {
 
 .btn-primary {
   background: var(--clt-primary);
+}
+
+.btn-primary:hover,
+btn-primary:focus {
+  background: var(--clt-primary-dark);
+}
+
+.btn-accent {
+  background: var(--clr-accent);
+}
+
+.btn-accent:hover,
+btn-accent:focus {
+  background: var(--clr-accent-dark);
 }
 
 .order-online {
