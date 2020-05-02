@@ -11,6 +11,7 @@ font-family: 'Crimson Pro', serif;
   --clt-primary-dark: #125814;
   --clr-accent: #764981;
   --clr-accent-dark: #44264d;
+  --clr-social-link: #8fb3ff;
 
   --ff-title: "Caveat", cursive;
   --ff-serif: "Crimson Pro", serif;
@@ -206,6 +207,9 @@ btn-accent:focus {
   border-radius: 0.35em;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
 }
+.product:nth-of-type(3) {
+  margin-bottom: 2em;
+}
 
 .product__img-container {
   display: flex;
@@ -225,4 +229,57 @@ btn-accent:focus {
   padding: 0.7em;
   color: var(--clt-primary);
   font-size: 2.5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: var(--clr-text);
+  padding: 3em 1em;
+  margin-top: 2em;
+  color: white;
+}
+
+footer a {
+  color: inherit;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-nav a {
+  padding: 0.75em;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+
+.footer-nav a:hover,
+footer-nav a:focus {
+  text-decoration: underline;
+  color: var(--clt-primary);
+}
+
+.footer-social {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social li {
+  padding: 0.25em;
+  margin-top: 5px;
+}
+
+.footer-social li a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  transition: all ease-in-out 250ms;
+}
+
+.footer-social li a:hover,
+footer-social li a:focus {
+  color: var(--clr-social-link);
 }
