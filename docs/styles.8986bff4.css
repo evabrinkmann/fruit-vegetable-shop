@@ -198,7 +198,7 @@ btn-accent:focus {
 .products {
   display: flex;
   flex-direction: column;
-  max-width: 30rem;
+  /* max-width: 30rem; */
   margin: 0 auto;
 }
 
@@ -328,6 +328,19 @@ footer-social li a:focus {
 
   .order-online {
     display: grid;
+  }
+
+  .products {
+    flex-direction: row;
+  }
+
+  .product {
+    margin: 0;
+    flex: 0 1 33%;
+  }
+
+  .product:nth-of-type(3) {
+    margin: 0;
   }
 }
 
