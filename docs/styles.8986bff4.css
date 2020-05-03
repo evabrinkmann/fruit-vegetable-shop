@@ -296,7 +296,7 @@ footer-social li a:focus {
 
   .intro {
     padding: 7em 1em;
-    max-width: 36rem;
+    max-width: 55ch;
     margin: auto;
   }
 
@@ -317,12 +317,12 @@ footer-social li a:focus {
   .about-us__body {
     text-align: justify;
     padding: 3em;
-    max-width: 42rem;
+    max-width: 55ch;
     margin: auto;
   }
 
   .order-online > * {
-    max-width: 36rem;
+    max-width: 55ch;
     margin: 0.25em auto;
   }
 
