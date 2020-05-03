@@ -65,6 +65,10 @@ p {
   margin-bottom: 0.85em;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 .section-title-small {
   font-size: 3rem;
 }
@@ -124,6 +128,7 @@ nav a:focus {
 
 .intro {
   text-align: center;
+  line-height: 1.5em;
 }
 
 .about-us {
@@ -193,6 +198,8 @@ btn-accent:focus {
 .products {
   display: flex;
   flex-direction: column;
+  max-width: 30rem;
+  margin: 0 auto;
 }
 
 .product {
@@ -275,6 +282,53 @@ footer-nav a:focus {
 .footer-social li a:hover,
 footer-social li a:focus {
   color: var(--clr-social-link);
+}
+
+@media only screen and (min-width: 750px) {
+  section {
+    padding: 6em 1em;
+  }
+
+  .btn-group {
+    flex-direction: row;
+    margin-top: 1em;
+  }
+
+  .intro {
+    padding: 7em 1em;
+    max-width: 36rem;
+    margin: auto;
+  }
+
+  .about-us {
+    flex-direction: row;
+  }
+
+  .about-us h2 {
+    padding: 4vh 1vh;
+    font-size: 3em;
+  }
+
+  .about-us__intro,
+  .about-us__body {
+    flex: 0 1 50%;
+  }
+
+  .about-us__body {
+    text-align: justify;
+    padding: 3em;
+    max-width: 42rem;
+    margin: auto;
+  }
+
+  .order-online > * {
+    max-width: 36rem;
+    margin: 0.25em auto;
+  }
+
+  .order-online {
+    display: grid;
+  }
 }
 
 
